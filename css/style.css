@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  padding: 10px;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container .title::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.button{
+  margin: 12px;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+ }
+.button:hover{
+  transform: scale(0.99); 
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.change-btn {
+	background-color: #000;
+	border: 0;
+  border-radius: 40px;
+	color: #fff;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 18px;
+	padding: 20px 50px;
+  margin: 50px;
+}
+
+.change-btn:active {
+	transform: scale(0.98);
+}
+
+.change-btn:focus {
+	outline: none;
+}
+#slider img{
+  width: 600px;
+  height: 400px;
+}
+.randomС{
+	background-color: #000;
+	border: 0;
+    border-radius: 40px;
+	color: #fff;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 18px;
+	padding: 20px 50px;
+}
+.randomС:active {
+	transform: scale(0.98);
+}
+.randomС:focus {
+	outline: none;
+}
+h4{
+  height: 100px;
+  padding: 20px;
+}
+.article {
+	border: 2px solid #71b7e6;
+}
+.panier {
+	margin-top: 10px;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+.buy{
+  display: flex;
+}
+.buy img{
+  width: 62px;
+  height: 62px;
+}
+h1{
+  height: 200px;
+}
+#btnok{
+  background-color: #9b59b6;
+	border: 0;
+  border-radius: 40px;
+	color: #fff;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 18px;
+	padding: 5px 50px;
+  margin: 50px;
+}
+form{
+  margin: 50px 20px;
+}
+form label{
+  color: #71b7e6;
+}
+form input{
+  height: 40px;
+  border: dashed 1px black;
+  border-radius: 50px;
+}
+form select{
+  border: dashed 1px black;
+  border-radius: 50px;
+  vertical-align: middle;
+}
